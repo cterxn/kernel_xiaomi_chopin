@@ -6,8 +6,6 @@
 #ifndef __TEE_SANITY_H__
 #define __TEE_SANITY_H__
 
-#define SCHED_PREFER_BIG 0
-
 #define PFX                     KBUILD_MODNAME ": "
 
 #define tee_log(p, s, fmt, args...) \
